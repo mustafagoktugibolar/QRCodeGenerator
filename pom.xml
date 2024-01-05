@@ -8,6 +8,20 @@
     <artifactId>QRCodeGenerator</artifactId>
     <version>1.0-0</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>core</artifactId>
+            <version>3.5.2</version> <!-- Replace with the latest version available -->
+        </dependency>
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>javase</artifactId>
+            <version>3.5.2</version> <!-- Replace with the same version as core -->
+        </dependency>
+    </dependencies>
+
+
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
